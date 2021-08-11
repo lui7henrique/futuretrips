@@ -1,3 +1,4 @@
+import { Footer } from "components/Footer"
 import { DefaultSeo } from "next-seo"
 import { AppProps } from "next/app"
 import Head from "next/head"
@@ -31,6 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         showOnShallow={true}
       />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }
