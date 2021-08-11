@@ -11,7 +11,7 @@ export const Container = styled.section`
 `
 
 export const Heading = styled.h1`
-  font-size: var(--large);
+  font-size: var(--medium);
   margin-bottom: var(--medium);
 
   @media (max-width: 768px) {
@@ -22,8 +22,16 @@ export const Heading = styled.h1`
 export const Body = styled.div`
   margin-bottom: var(--large);
   text-align: justify;
+  transition: all 0.2s ease-in-out;
   p {
     margin-bottom: var(--medium);
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      filter: brightness(0.8);
+    }
   }
 `
 
@@ -33,6 +41,10 @@ export const Gallery = styled.div`
   grid-gap: 1rem;
 
   img {
+    filter: brightness(0.5);
+    border-radius: 5px;
+    transition: filter 0.2s ease-in-out;
+
     background: #121214;
     background-image: linear-gradient(
       to right,
@@ -50,6 +62,10 @@ export const Gallery = styled.div`
       100% {
         background-position: 40rem 0;
       }
+    }
+
+    &:hover {
+      filter: brightness(1);
     }
   }
 `
