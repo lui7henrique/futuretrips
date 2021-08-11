@@ -1,6 +1,8 @@
 import { useRouter } from "next/dist/client/router"
 import { MapContainer, TileLayer, Marker } from "react-leaflet"
 
+import { mapView } from "./config"
+
 type Place = {
   id: string
   name: string
@@ -37,9 +39,14 @@ export default function Map({ places }: MapProps) {
   const router = useRouter()
   return (
     <MapContainer
-      center={[0, 0]}
-      zoom={3}
+      center={mapView.center}
+      zoom={mapView.zoom}
       style={{ height: "100%", width: "100%" }}
+      minZoom={3}
+      maxBounds={[
+        [-180, 180],
+        [180, -180]
+      ]}
     >
       <CustomTileLayer />
       {places?.map(({ id, slug, name, location }) => {
