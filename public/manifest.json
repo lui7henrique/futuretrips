@@ -1,6 +1,6 @@
 {
-  "name": "NextJS na prática",
-  "short_name": "NextJS na prática",
+  "name": "My Trips",
+  "short_name": "My Trips",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -15,7 +15,7 @@
   ],
   "theme_color": "#06092b",
   "background_color": "#06092b",
-  "description": "Boilerplate utilizando Typescript, React, NextJS e Styled Components!",
+  "description": "A simple project to show my favorite spots in the world",
   "start_url": "/",
   "display": "fullscreen"
 }
