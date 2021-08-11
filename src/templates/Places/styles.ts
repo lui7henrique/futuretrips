@@ -25,12 +25,18 @@ export const Body = styled.div`
   transition: all 0.2s ease-in-out;
   p {
     margin-bottom: var(--medium);
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 
   a {
     text-decoration: none;
     &:hover {
       filter: brightness(0.8);
+    }
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
     }
   }
 `

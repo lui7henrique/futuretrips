@@ -13,7 +13,11 @@ export const Content = styled.section`
 
 export const Heading = styled.h1`
   font-size: var(--large);
-  margin-bottom: var(--large);
 `
 
-export const Body = styled.div``
+export const Body = styled.div`
+  div {
+    padding: 0 3rem;
+    text-align: justify;
+  }
+`
