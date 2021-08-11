@@ -17,7 +17,15 @@ export default function HomeTemplate({ places }: MapProps) {
           url: "https://futuretrips.vercel.app/",
           title: "My Future Trips",
           description:
-            "This is my site where I post all the places I will visit in the future! I hope you like it!"
+            "This is my site where I post all the places I will visit in the future! I hope you like it!",
+          images: [
+            {
+              url: "https://i.ibb.co/ft1c6Gv/home.jpg",
+              width: 1280,
+              height: 720,
+              alt: "My Future Trips"
+            }
+          ]
         }}
       />
       <LinkWrapper href="/about">
