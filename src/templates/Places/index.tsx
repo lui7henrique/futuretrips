@@ -1,5 +1,6 @@
 import { CloseOutline } from "@styled-icons/evaicons-outline"
 import { LinkWrapper } from "components/LinkWrapper"
+import { NextSeo } from "next-seo"
 import { useRouter } from "next/dist/client/router"
 import Image from "next/image"
 
@@ -16,7 +17,7 @@ export type PlacesTemplateProps = {
   place: {
     slug: string
     name: string
-    description?: { html: string }
+    description?: { html: string; text: string }
     gallery: ImageProps[]
   }
 }
@@ -30,6 +31,24 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
       <LinkWrapper href="/">
         <CloseOutline size={32} aria-label="Go back to map" />
       </LinkWrapper>
+      <NextSeo
+        title={`${place.name} - Trips`}
+        description={place.description?.text}
+        canonical="https://futuretrips.vercel.app/"
+        openGraph={{
+          url: "https://futuretrips.vercel.app/",
+          title: `${place.name} - Trips`,
+          description: place.description?.text,
+          images: [
+            {
+              url: place.gallery[0].url,
+              width: place.gallery[0].width,
+              height: place.gallery[0].width,
+              alt: `${place.name}`
+            }
+          ]
+        }}
+      />
 
       <S.Wrapper>
         <S.Container>
