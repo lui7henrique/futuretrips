@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossOrigin=""
         />
-        <meta name="theme-color" content="#06092B" />
+        <meta name="theme-color" content="#8257E6" />
       </Head>
       <DefaultSeo {...SEO} />
       <GlobalStyles />
