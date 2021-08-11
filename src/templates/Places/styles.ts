@@ -33,13 +33,13 @@ export const Gallery = styled.div`
   grid-gap: 1rem;
 
   img {
-    background: #f6f7f8;
+    background: #121214;
     background-image: linear-gradient(
       to right,
-      #f6f7f8 0%,
-      #edeef1 20%,
-      #f6f7f8 40%,
-      #f6f7f8 100%
+      #121214 0%,
+      #171719 20%,
+      #121214 40%,
+      #121214 100%
     );
     background-size: 80rem 14rem;
     animation: placeholderShimmer 1s linear infinite forwards;
