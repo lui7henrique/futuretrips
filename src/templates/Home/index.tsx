@@ -20,7 +20,7 @@ export default function HomeTemplate({ places }: MapProps) {
             "This is a site where I post all the places I will visit in the future! I hope you like it 💜",
           images: [
             {
-              url: "https://lh5.googleusercontent.com/kE-SZt74kPHUZW2Er4dxVsUKdr_JM7orTuC21temjN9DvbNBlaVwvOHn1lN4jexpnIZLDqNJHyLk5AM0ZDZ6=w1920-h969-rw",
+              url: "https://futuretrips.vercel.app/img/home.jpg",
               width: 1280,
               height: 720,
               alt: "My Future Trips"
