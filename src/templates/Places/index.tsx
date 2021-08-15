@@ -32,13 +32,13 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
         <CloseOutline size={32} aria-label="Go back to map" />
       </LinkWrapper>
       <NextSeo
-        title={`${place.name} - Trips`}
-        description={place.description?.text}
-        canonical="https://futuretrips.vercel.app/"
+        title={`${place.name}`}
+        description={place.description?.text.slice(0, 200)}
+        canonical="https://futuretrips.vercel.app"
         openGraph={{
-          url: "https://futuretrips.vercel.app/",
-          title: `${place.name} - Trips`,
-          description: place.description?.text,
+          url: "https://futuretrips.vercel.app",
+          title: `${place.name}`,
+          description: place.description?.text.slice(0, 200),
           images: [
             {
               url: place.gallery[0].url,
