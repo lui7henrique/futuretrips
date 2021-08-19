@@ -1,5 +1,5 @@
 ## 🛫 Future Trips
-A simple website to show places I want to visit 
+A simple website to show places I want to visit! 
 
 ## Features
 - [x] Map with pins
