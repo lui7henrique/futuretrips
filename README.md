@@ -1,5 +1,6 @@
 ## 🛫 Future Trips
 A simple website to show places I want to visit! 
+> Acess on: https://futuretrips.vercel.app/
 
 ## Features
 - [x] Map with pins
