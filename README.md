@@ -18,4 +18,6 @@ A simple website to show places I want to visit
 
 ---
 
-<p align="center">Made with 💙 by Luiz Henrique during the course <a href="https://www.udemy.com/course/aprenda-nextjs-na-pratica/" target="_blank">Aprenda NextJS, GraphQL/GraphCMS e Leaflet na prática!</a></p>
+<p align="center">Made with 💙 by Luiz Henrique during the course 
+  <a href="https://www.udemy.com/course/aprenda-nextjs-na-pratica/" target="_blank">Aprenda NextJS, GraphQL/GraphCMS e Leaflet na prática!</a>
+</p>
