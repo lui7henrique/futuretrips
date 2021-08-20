@@ -10,12 +10,12 @@ export default function HomeTemplate({ places }: MapProps) {
   return (
     <>
       <NextSeo
-        title="My Future Trips"
+        title="Future Trips"
         description="This is a site where I post all the places I will visit in the future! I hope you like it 💜"
         canonical="https://futuretrips.vercel.app/"
         openGraph={{
           url: "https://futuretrips.vercel.app/",
-          title: "My Future Trips",
+          title: "Future Trips",
           description:
             "This is a site where I post all the places I will visit in the future! I hope you like it 💜",
           images: [
