@@ -14,6 +14,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/icon.png" />
         <link rel="apple-touch-icon" href="/icon.png" />
         <link rel="manifest" href="/manifest.json" />
+        <meta
+          name="google-site-verification"
+          content="dfBEKWv6Sd0UBbWaSz4FBi03XO7IvDhUhCoNOAd-Euc"
+        />
         <link
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
