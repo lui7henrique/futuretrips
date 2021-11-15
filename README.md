@@ -1,6 +1,6 @@
 ## 🛫 Future Trips
 A simple website to show places I want to visit! 
-> Acess on: https://futuretrips.vercel.app/
+> Access on: https://futuretrips.vercel.app/
 
 ## Features
 - [x] Map with pins
@@ -15,6 +15,7 @@ A simple website to show places I want to visit!
 - [GraphQL](https://graphql.org/)
 - [GraphQL Code Generator](https://www.graphql-code-generator.com/)
 - [GraphCMS](https://graphcms.com/)
+- [React Leaflet](https://react-leaflet.js.org/)
 
 
 ---
